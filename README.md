@@ -4,9 +4,9 @@ I denna övning tränar du grunderna i JavaScript: operators, expressions och va
 
 ## 👥 Utförande
 
-Det går fint att göra dessa uppgifter själv. Om man känner sig på osäker koncepten är parprogrammering ett utmärkt alternativ. Det vill säga att ni jobbar på en dator två och två för att tillsammans lista ut lösningarna.
+Det går fint att göra dessa uppgifter själv. Om man känner sig osäker på koncepten är parprogrammering ett utmärkt alternativ. Det vill säga att ni jobbar på en dator två och två för att tillsammans lista ut lösningarna.
 
-## 🧑‍🔧 Så kör du testerna (NPM & Vitest)
+## 🧑‍🔧 Så kör du unit tests (NPM & Vitest)
 
 ### Intallera dependencies
 
@@ -20,16 +20,18 @@ Projektet har bara en "dev dependency" - testbiblioteket Vitest. Följ instrukti
 npm install
 ```
 
+### Test-kommandon
+
 - Kör alla tester(watch-läge):
 
 ```bash
-npm test
+npm run test
 ```
 
 - Kör en enskild testfil (watch-läge):
 
 ```bash
-npm test methods/array-methods.test.js - eller vad filnamnet kan tänkas vara
+npm run test methods/array-methods.test.js - eller vad filnamnet kan tänkas vara
 ```
 
 - Tryck `q`eller `ctrl + c`för att ta dig ur watch-läge och avbryta testandet
@@ -40,4 +42,4 @@ npm test methods/array-methods.test.js - eller vad filnamnet kan tänkas vara
 
 ## 💡 Tips
 
-Filstrukturen under `tests/` speglar dina lösningsfiler. Fixa funktionerna tills testerna blir gröna ✅.
+Filstrukturen under `tests/` speglar dina lösningsfiler. De kan ge mer klarhet i vad det önskade utfallet är. Fixa funktionerna tills testerna blir gröna ✅.

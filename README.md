@@ -39,4 +39,4 @@ npm run test methods/array-methods.test.js - eller vad filnamnet kan tänkas var
 
 ## 💡 Tips
 
-Filstrukturen under `tests/` speglar dina lösningsfiler. Fixa funktionerna tills testerna blir gröna ✅.
+Filstrukturen under `tests/` speglar dina lösningsfiler. De kan ge mer klarhet i vad det önskade utfallet är. Fixa funktionerna tills testerna blir gröna ✅.

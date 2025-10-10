@@ -19,16 +19,18 @@ Projektet har bara en "dev dependency" - testbiblioteket Vitest. Följ instrukti
 npm install
 ```
 
+### Test-kommandon
+
 - Kör alla tester(watch-läge):
 
 ```bash
-npm test
+npm run test
 ```
 
 - Kör en enskild testfil (watch-läge):
 
 ```bash
-npm test methods/array-methods.test.js - eller vad filnamnet kan tänkas vara
+npm run test methods/array-methods.test.js - eller vad filnamnet kan tänkas vara
 ```
 
 #### "npm"-kommandot kräver att man har installerat Node

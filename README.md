@@ -4,7 +4,7 @@ I denna övning tränar du grunderna i JavaScript: operators, expressions och va
 
 ## 👥 Utförande
 
-Det går fint att göra dessa uppgifter själv. Om man känner sig på osäker koncepten är parprogrammering ett utmärkt alternativ. Det vill säga att ni jobbar på en dator två och två för att tillsammans lista ut lösningarna.
+Det går fint att göra dessa uppgifter själv. Om man känner sig osäker på koncepten är parprogrammering ett utmärkt alternativ. Det vill säga att ni jobbar på en dator två och två för att tillsammans lista ut lösningarna.
 
 ## 🧑‍🔧 Så kör du testerna (NPM & Vitest)
 

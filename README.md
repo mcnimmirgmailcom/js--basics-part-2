@@ -13,6 +13,7 @@ Det går fint att göra dessa uppgifter själv. Om man känner sig på osäker k
 Projektet har bara en "dev dependency" - testbiblioteket Vitest. Följ instruktionerna nedan för att köra testen och kontrollera att dina lösningar ger önskat utfall.
 
 - Öppna terminalen (Exempelvis direkt i din IDE)
+- Se till att du är i mappen för detta projekt
 - Installera dependencies
 
 ```bash
@@ -30,6 +31,8 @@ npm test
 ```bash
 npm test methods/array-methods.test.js - eller vad filnamnet kan tänkas vara
 ```
+
+- Tryck `q`eller `ctrl + c`för att ta dig ur watch-läge och avbryta testandet
 
 #### "npm"-kommandot kräver att man har installerat Node
 

@@ -2,14 +2,16 @@ import {
   checkAccess,
   checkAccessOneLine,
 } from "../../operators-and-expressions/check-access";
-import { test, expect } from "vitest";
+import { test, expect, describe } from "vitest";
 
-test("checkAccess", () => {
-  expect(checkAccess(18, true, false)).toBe(true);
-});
-
-if (checkAccessOneLine) {
-  test("checkAccessOneLine", () => {
-    expect(checkAccessOneLine(18, true, false)).toBe(true);
+describe("check access", () => {
+  test("checkAccess", () => {
+    expect(checkAccess(18, true, false)).toBe(true);
   });
-}
+
+  if (checkAccessOneLine) {
+    test("checkAccessOneLine", () => {
+      expect(checkAccessOneLine(18, true, false)).toBe(true);
+    });
+  }
+});

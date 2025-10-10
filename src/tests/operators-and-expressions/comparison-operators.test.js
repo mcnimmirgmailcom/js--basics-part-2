@@ -8,36 +8,38 @@ import {
   isGreaterOrEqual,
   isLessOrEqual,
 } from "../../operators-and-expressions/comparison-operators";
-import { test, expect } from "vitest";
+import { test, expect, describe } from "vitest";
 
-test("isEqual", () => {
-  expect(isEqual()).toBe(true);
-});
+describe("comparison operators", () => {
+  test("isEqual", () => {
+    expect(isEqual()).toBe(true);
+  });
 
-test("isStrictlyEqual", () => {
-  expect(isStrictlyEqual()).toBe(false);
-});
+  test("isStrictlyEqual", () => {
+    expect(isStrictlyEqual()).toBe(false);
+  });
 
-test("isNotEqual", () => {
-  expect(isNotEqual()).toBe(false);
-});
+  test("isNotEqual", () => {
+    expect(isNotEqual()).toBe(false);
+  });
 
-test("isStrictlyNotEqual", () => {
-  expect(isStrictlyNotEqual()).toBe(true);
-});
+  test("isStrictlyNotEqual", () => {
+    expect(isStrictlyNotEqual()).toBe(true);
+  });
 
-test("isGreaterThan", () => {
-  expect(isGreaterThan()).toBe(true);
-});
+  test("isGreaterThan", () => {
+    expect(isGreaterThan()).toBe(true);
+  });
 
-test("isLessThan", () => {
-  expect(isLessThan()).toBe(true);
-});
+  test("isLessThan", () => {
+    expect(isLessThan()).toBe(true);
+  });
 
-test("isGreaterOrEqual", () => {
-  expect(isGreaterOrEqual()).toBe(false);
-});
+  test("isGreaterOrEqual", () => {
+    expect(isGreaterOrEqual()).toBe(false);
+  });
 
-test("isLessOrEqual", () => {
-  expect(isLessOrEqual()).toBe(true);
+  test("isLessOrEqual", () => {
+    expect(isLessOrEqual()).toBe(true);
+  });
 });

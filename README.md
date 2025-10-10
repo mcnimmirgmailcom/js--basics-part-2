@@ -6,7 +6,7 @@ I denna övning tränar du grunderna i JavaScript: operators, expressions och va
 
 Det går fint att göra dessa uppgifter själv. Om man känner sig osäker på koncepten är parprogrammering ett utmärkt alternativ. Det vill säga att ni jobbar på en dator två och två för att tillsammans lista ut lösningarna.
 
-## 🧑‍🔧 Så kör du testerna (NPM & Vitest)
+## 🧑‍🔧 Så kör du unit tests (NPM & Vitest)
 
 ### Intallera dependencies
 

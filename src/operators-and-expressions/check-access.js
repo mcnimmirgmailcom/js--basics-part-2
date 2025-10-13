@@ -1,4 +1,4 @@
-// skapa en funktion som validerar om en användare har tillgång baserat på
+// gör så att funktionerna validerar om en användare har tillgång baserat på
 // ålder - 18 eller äldre
 // är prenumerant
 // är inte bannad

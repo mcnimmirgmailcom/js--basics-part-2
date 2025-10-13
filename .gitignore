@@ -122,9 +122,17 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# vscode settings and stuff (leftover port settings from live server etc.)
+.vscode/
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# macos shenanigans
+.DS_Store
+
+
